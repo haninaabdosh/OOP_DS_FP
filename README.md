@@ -17,45 +17,45 @@ The system implements two main detection approaches:
 
 src/
 ├── benchmark/                 # Performance testing  
-│   ├── GraphOperationsBenchmark.java
-│   └── HashTableOperationsBenchmark.java
-├── demo/                      # demos
-│   ├── GraphDemo.java
-│   └── HashTableDemo.java
-├── detectors/                 # Core fraud detection logic
-│   ├── BFSDetector.java
-│   ├── FraudDetectionGraph.java
-│   ├── FraudDetector.java
-│   └── HashTableDetection.java
-├── graph/                     # Graph data structures
-│   ├── GraphBuilder.java
-│   ├── TransactionEdge.java
-│   └── UserNode.java
-├── models/                    # Data models
-│   └── FraudDataModel.java
-├── repository/                # Data loading
-│   └── FraudDataRepository.java
-├── strategies/                # Detection strategies
-│   ├── GraphFraudDetectionStrategy.java
-│   ├── HighFrequencyGraphDetector.java
-│   └── ImpossibleTravelGraphDetector.java
-└── utils/                     # Utility classes
-    ├── BloomFilter.java
-    ├── CsvExporter.java
-    └── LocationUtils.java
+│   ├── GraphOperationsBenchmark.java  
+│   └── HashTableOperationsBenchmark.java  
+├── demo/                      # demos  
+│   ├── GraphDemo.java  
+│   └── HashTableDemo.java  
+├── detectors/                 # Core fraud detection logic  
+│   ├── BFSDetector.java  
+│   ├── FraudDetectionGraph.java  
+│   ├── FraudDetector.java  
+│   └── HashTableDetection.java  
+├── graph/                     # Graph data structures  
+│   ├── GraphBuilder.java  
+│   ├── TransactionEdge.java  
+│   └── UserNode.java  
+├── models/                    # Data models  
+│   └── FraudDataModel.java  
+├── repository/                # Data loading  
+│   └── FraudDataRepository.java  
+├── strategies/                # Detection strategies  
+│   ├── GraphFraudDetectionStrategy.java  
+│   ├── HighFrequencyGraphDetector.java  
+│   └── ImpossibleTravelGraphDetector.java  
+└── utils/                     # Utility classes  
+    ├── BloomFilter.java  
+    ├── CsvExporter.java  
+    └── LocationUtils.java  
 
 data/
-├── accounts_10.csv           # Sample account data (10 records)
-├── accounts_50.csv           # Sample account data (50 records)
-├── accounts_100.csv          # Sample account data (100 records)
-├── accounts_500.csv          # Sample account data (500 records)
-├──accounts_1000.csv          # Sample account data (1000 records)
-├── transactions_10.csv       # Sample transaction data (10 records)
-├── transactions_50.csv       # Sample transaction data (50 records)
-├── transactions_100.csv      # Sample transaction data (100 records)
-├── transactions_500.csv      # Sample transaction data (500 records)
-├── transactions_1000.csv     # Sample transaction data (1000 records)
-└── known_accounts.csv        # Known fraudulent accounts
+├── accounts_10.csv           # Sample account data (10 records)  
+├── accounts_50.csv           # Sample account data (50 records)  
+├── accounts_100.csv          # Sample account data (100 records)  
+├── accounts_500.csv          # Sample account data (500 records)  
+├──accounts_1000.csv          # Sample account data (1000 records)  
+├── transactions_10.csv       # Sample transaction data (10 records)  
+├── transactions_50.csv       # Sample transaction data (50 records)  
+├── transactions_100.csv      # Sample transaction data (100 records)  
+├── transactions_500.csv      # Sample transaction data (500 records)  
+├── transactions_1000.csv     # Sample transaction data (1000 records)  
+└── known_accounts.csv        # Known fraudulent accounts  
 ```
 
 ### Technology needed
