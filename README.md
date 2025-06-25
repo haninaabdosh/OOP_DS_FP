@@ -1,5 +1,6 @@
 # OOP_DS_FP
-Poster link: https://www.canva.com/design/DAGqIAeHHe4/GwseKssfXjBmNfuWyBF7vg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0
+Poster link: https://www.canva.com/design/DAGqIAeHHe4/GwseKssfXjBmNfuWyBF7vg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0  
+
 Final Report link:
 
 # Fraud Detection System
@@ -15,7 +16,7 @@ The system implements two main detection approaches:
 ## Project Structure
 
 src/
-├── benchmark/                 # Performance testing
+├── benchmark/                 # Performance testing  
 │   ├── GraphOperationsBenchmark.java
 │   └── HashTableOperationsBenchmark.java
 ├── demo/                      # demos
