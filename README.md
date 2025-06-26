@@ -286,3 +286,16 @@ HASHTABLE_FRAUDS,tx002,acc005,acc006,2000,2025-06-15T09:00:00
 ```
 
 This enables easy integration with external analysis tools and reporting systems.
+
+## References
+btusi. (2012). Simple Java Logging Benchmark [Source code]. Gist.  
+https://gist.github.com/btusi/3870636  
+(Adapted for HashTableOperationsBenchmark.java and GraphOperationsBenchmark.java)    
+
+GoodforGod. (2022). SystemLoggerBenchmark.java [Source code]. GitHub.  
+https://github.com/GoodforGod/java-logger-benchmark/blob/master/benchmark/src/main/java/io/goodforgod/benchmark/SystemLoggerBenchmark.java  
+(Adapted for benchmarking logic in HashTableOperationsBenchmark.java and GraphOperationsBenchmark.java)  
+
+vananth22. (2016). Java Implementation of Haversine Formula [Source code]. Gist.  
+https://gist.github.com/vananth22/888ed9a22105670e7a4092bdcf0d72e4  
+(Used in LocationUtils.java for geographical distance calculations)  
